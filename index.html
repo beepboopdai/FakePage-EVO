@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/png" href="./assets/FAKEPAGE.png">
+    <title>FakePage EVO</title>
+</head>
+<body>
+    <div id="headerDiv" class="center">
+        <h1 style="font-size: 80;">FakePage EVO</h1>
+        <h3 class="center" style="margin-top: -45px;">by beepboopdai</h3>
+    </div>
+
+    <hr>
+
+    <h2 class="typewriter center">Recommended Posts</h2>
+
+    <div id="recommendedPostsContainer" class="center">
+    </div>
+
+    <div id="actionButtonsContainer" class="center" style="margin-top: 10px;">
+        <button id="createPost">Create Post</button>
+        <button id="deletePost">Delete Post</button>
+        <button id="searchPosts">Search Posts</button>
+        <button id="refreshPosts">Refresh Posts</button>
+    </div>
+
+    <div id="createPostContainer" class="container center" style="margin-top: 10px">
+        <h2>Create Post</h2>
+        <hr>
+        <input id="createPostTitleInput" placeholder="Title" style="margin-left: 30px;"> 
+        <input id="createPostAuthorInput" placeholder="Author" style="margin-left: 30px;"> 
+        <input id="createPostContentInput" placeholder="Content" style="margin-left: 30px;">
+        <button style="margin-left: 80px; margin-top: 10px;" id="createPostButton">Create Post</button>
+    </div>
+
+    <script src="./scripts/recommendPosts.js"></script>
+    <script src="./scripts/createPost.js"></script>
+</body>
+</html>
